@@ -1,4 +1,5 @@
 // funciones tambien son objetos
+// las funciones se pueden asignar a otras variables o constantes
 function usuario(nombre) {
     this.nombre = nombre;
 }
@@ -15,3 +16,21 @@ let U = usuario;
 let user = new U('juan');
 console.log(user);
 //minuto 3:32:40
+
+// pueden pasar como argumento una funcion
+function of(Fn,arg){
+    return new Fn(arg);
+}
+
+// se llama a la funcion of y se le pasa la funcion y el argumento
+let user1 = of(usuario,'juan'); //se puede pasar una funcion y un argumento
+console.log(user1);
+
+function returned(){
+    return function (){
+        console.log('hola mundo');
+    }
+}
+
+let saludo = returned();// se usa para asignar la funcion a una variable
+saludo(); // se usa para llamar la funcion
