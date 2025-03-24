@@ -6,12 +6,12 @@ const obtenserPost = () =>{
         // se defiene la funcion de la promesa
         setTimeout(() => {
             const post = ['post 1', 'post 2', 'post 3'];
-            const error = true; // por si se hay algun error
+            const error = false; // por si se hay algun error, si es true no se
 
             if (error){
-                reject('hubo un error');
-            } else {
                 resolve(post);// entrega el post (la lista de post)
+            } else {
+                reject('hubo un error');
             }
         }, 2000);
 
@@ -19,5 +19,7 @@ const obtenserPost = () =>{
     }
 
 // se llama a la promesa
-obtenserPost().then ((post) => {console.log(post)}).catch((error) => console.log(error));
+obtenserPost()
+  .then((post) => {console.log(post); })
+  .catch((error) => console.log(error));
 // minuto 7:30

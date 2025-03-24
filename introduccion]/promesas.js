@@ -21,7 +21,5 @@ promesa.then((mensaje)=> {
 
 // si se ejecuta reject (es false) se ejecuta la siguiente funcion
 promesa.catch((mensaje)=> {
-    alert (mensaje); //mostrar el mensaje de resolve
-
-
-});
+    alert (mensaje); //mostrar el mensaje de reject
+    }); 
