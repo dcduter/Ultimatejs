@@ -26,7 +26,7 @@ body {
         transform: perspective(400px) rotateY(360deg);
     } */
 body {
-    background-image: url(/img/halo_reach.jpg);
+    background-image: url(halo_reach.jpg);
  
     background-repeat: no-repeat;
 }
@@ -54,27 +54,5 @@ p{
     text-align: center;
     margin: 2rem;
     font-size: 30px;
-    border-radius: 9px;
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    color: rgb(69, 7, 7);
-    -webkit-box-shadow: 1px 17px 22px 3px rgba(0,0,0,0.75);
-    -moz-box-shadow: 1px 17px 22px 3px rgba(0,0,0,0.75);
-    box-shadow: 1px 17px 22px 3px rgba(0,0,0,0.75);
+   
 }
-h1{
-    text-align: center;
-    /* margin: 2rem; */
-    font-size: 30px;
-    padding: 2rem 0;
-    /* height: 30px;  */
-    inset: 0;
-    border-radius: 10px;
-    background-color: black;
-    color: white;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-

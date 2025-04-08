@@ -1,5 +1,14 @@
 {
+  "name": "modulos",
+  "version": "1.0.0",
+  "description": "Proyecto de módulos JavaScript",
+  "main": "public/bundle.js",
+  "scripts": {
+    "build": "rollup -c --watch"
+  },
   "devDependencies": {
-    "rollup": "^4.37.0"
-  }
+    "rollup": "^4.39.0"
+  },
+  "author": "",
+  "license": "ISC"
 }

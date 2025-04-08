@@ -1,0 +1,1 @@
+/* los metodos de window son globales */

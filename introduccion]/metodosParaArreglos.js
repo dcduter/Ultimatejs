@@ -70,13 +70,20 @@ console.log(frutas2);// el resultado es el siguiente: [ 'banana', 'pera' ]
 
 /* 📌.forEach📌
 permite recorrer un arreglo y ejecutar una funcion para cada elemento */
-
+const frutas3 = frutas.forEach((fruta) => {
+    console.log(fruta);
+});
 /* 📌.map📌
-permite recorrer un arreglo y ejecutar una funcion para cada elemento */
-
+permite crear un nuevo arreglo */
+const frutas4 = frutas.map((fruta) => {
+    return fruta;
+});
 /* 📌.filter📌
-permite recorrer un arreglo y ejecutar una funcion para cada elemento */
-
+permite filtrar un arreglo */
+const frutas5 = frutas.filter((fruta) => {
+    return fruta === 'manzana';
+});
+console.log(frutas5);
 /* 📌.reduce📌 
 permite recorrer un arreglo y ejecutar una funcion para cada elemento */
 

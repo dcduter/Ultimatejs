@@ -5,7 +5,7 @@
 
 //cuales son los numeros pares
 
-let i = 0;
+let i = 0; //inicializamos la variable
 while (i < 10) { // condicion, se ejecuta hasta que i sea menor a 10, se ejecuta 10 veces, hacia abajo
     if (i % 2 == 0) {
         console.log('numero par', i);
